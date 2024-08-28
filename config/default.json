@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://divyan2708:test123@cluster0.i8lryaw.mongodb.net/mern-expense",
+    "jwtSecret" : "secret"
+}
