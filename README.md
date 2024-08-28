@@ -1,88 +1,70 @@
-<div id="top"></div>
+# Contact Management System
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
+![image](https://github.com/user-attachments/assets/cbe7b178-7dd1-4d5c-a8e4-d3484642d957)
 
-  <h3 align="center">Contact Keeper</h3>
+## Project Overview
 
-  <p align="center">
-    A simple web application that manages person contact
-    <br />
-    <a href="https://hans-contact-keeper.herokuapp.com/">View Demo</a>
-  </p>
-</div>
+The **Contact Management System** is a full-stack application designed to manage contacts efficiently. Built using the MERN (MongoDB, Express, React, Node.js) stack, this application provides features such as adding, editing, and deleting contacts, along with a responsive user interface.
 
-<!-- ABOUT THE PROJECT -->
+## Features
 
-## About The Project
+- **User Authentication**: Secure login and registration with JWT-based authentication.
+- **Contact Management**: Add, edit, delete, and view contacts.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-[![Product Name Screen Shot][product-screenshot]](https://hans-contact-keeper.herokuapp.com/)
+## Technologies Used
 
-This application was created using the MERN stack. React serves as the front end, Express serves as the backend, Node serves as the environment, MongoDB serves as the database, and mongoose serves as the ORM. I'm using the context API for the State manager.
+- **Frontend**: React, React Router DOM, Axios, React Transition Group
+- **Backend**: Node.js, Express, Mongoose, JWT, bcryptjs
+- **Database**: MongoDB
+- **Dev Tools**: Nodemon, Concurrently
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [React.js](https://reactjs.org/)
-- [Mongoose](https://www.mongodb.com/)
-- [MongoDB](https://mongoosejs.com/)
-- [Express](https://expressjs.com/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Installation
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+- Node.js and npm installed on your local machine.
+- MongoDB installed locally or a MongoDB Atlas account.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Setup Instructions
 
-### Installation
+1. **Clone the repository**:
+   ```bash
+      git clone https://github.com/yourusername/contact-management-system.git
+      cd contact-management-system
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+2. Install server dependencies:
+   ```bash
+      npm install
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/hansandika/Contact-Keeper.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Enter your API in `config/default.json`
-   ```json
-   {
-   	"mongoURI": "yourmongourl",
-   	"jwtSecret": "yoursecretkey"
-   }
-   ```
-4. Run Application
-   ```sh
-   npm run dev
-   ```
+3. Install client dependencies:
+   ```bash
+      npm run client install
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+4. Set up environment variables:
+   Create a .env file in the root directory and add your configuration values:
+   ```bash
+      MONGO_URI=your_mongodb_uri
+      JWT_SECRET=your_jwt_secret
 
-## Contact
+5. Run the application:
+   ```bash
+      npm run dev
+   
 
-Hans Geovani Andika - hansandika70@gmail.com - [hansandika][linkedin-url]
+## Usage
+- **Access the app**: Open your browser and go to http://localhost:3000 to start using the application.
+- **Create an account**: Register a new user account to begin managing your contacts.
+- **Add transactions**: Add, edit, delete, and view contacts through the user-friendly interface.
 
-Project Link: [https://github.com/hansandika/Contact-Keeper](https://github.com/hansandika/Contact-Keeper)
+## Scripts
+- **npm start**: Start the server.
+- **npm run server**: Start the server with Nodemon.
+- **npm run client**: Start the React development server.
+- **npm run clientinstall**: Install dependencies in the client directory.
+- **npm run dev**: Run both the server and the React development server concurrently.
+- **npm run build**: Build the React app for production.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-[linkedin-url]: https://www.linkedin.com/in/hans-geovani-andika-8b846b209/
-[product-screenshot]: docs/Website-screenshot.jpeg
+
+  
